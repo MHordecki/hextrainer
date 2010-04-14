@@ -1,0 +1,28 @@
+media/lib.js:
+    - client/lib/jquery-1.4.2.js
+    - client/lib/underscore-0.6.js
+
+media/style.css:
+    - templates/reset.css
+    - templates/text.css
+    - templates/960.css
+    - templates/style.css
+
+#media/test.js:
+#    - client/lib/qunit.js
+
+media/app.js:
+    - client/app/App/App.coffee
+
+    #- client/app/App/Model/Model.coffee
+    #- client/app/App/Model/ConnectionHandler.coffee
+    #- client/app/App/Model/LocalConnection.coffee
+
+    - client/app/App/Pages/Pages.coffee
+    - client/app/App/Pages/Welcome.coffee
+    - client/app/App/Pages/Training.coffee
+
+    - client/app/App/View/View.coffee
+    - client/app/core.coffee
+
+
